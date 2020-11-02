@@ -30,6 +30,13 @@ const styles = StyleSheet.create({
     alignItems: 'flex-end',
     marginTop: 7,
   },
+  loginButton: {
+    marginTop: 35,
+  },
+  createAccountButton: {
+    marginTop: 15,
+    marginBottom: 35,
+  },
   createAccountTitle: {
     fontFamily: 'OpenSans_600SemiBold',
     // color: '#413D3D ',

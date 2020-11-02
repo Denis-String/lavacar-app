@@ -44,8 +44,9 @@ function Login() {
           <Button
             label="ENTRAR"
             onPress={() => navigationToLogin()}
+            style={styles.loginButton}
           />
-          <Button outline label="Criar Conta" onPress={() => navigationToCreateAccount() } />
+          <Button style={styles.createAccountButton} outline label="Criar Conta" onPress={() => navigationToCreateAccount() } />
         </View>
       </Card>
     </ImageBackground>
