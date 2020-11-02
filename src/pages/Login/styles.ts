@@ -32,6 +32,17 @@ const styles = StyleSheet.create({
   },
   rememberPasswordContainer: {
     alignItems: 'flex-end',
+  },
+  googleButton: {
+    flexDirection: 'row',
+  },
+  googleLogo: {
+    margin: -12,
+    marginRight: 30,
+  },
+  googleButtonText: {
+    color: 'white',
+    fontFamily: 'OpenSans_600SemiBold',
   }
 });
 

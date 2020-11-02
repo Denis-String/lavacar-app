@@ -7,7 +7,6 @@ const styles = StyleSheet.create({
     padding: 15,
     borderRadius: 5,
     elevation: 3,
-    flexDirection: 'column',
     textTransform: 'uppercase',
   },
   outline: {

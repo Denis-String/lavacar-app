@@ -45,9 +45,9 @@ function Login() {
         <Text style={[styles.subtitle, { padding: 5, color: '#327FD6', fontSize: 12 }]}>OU</Text>
         <View style={{borderColor: '#327FD6', borderWidth: 1, width: '40%'}} />        
       </View>
-      <Button>
-        <Image style={styles.logo} source={GoogleLogo} />
-        <Text style={{ margin: 50 }}>ENTRAR COM GOOGLE</Text>
+      <Button style={styles.googleButton}>
+        <Image source={GoogleLogo} style={styles.googleLogo} />
+        <Text style={styles.googleButtonText}>ENTRAR COM GOOGLE</Text>
       </Button>
     </Card>
   </ImageBackground>
