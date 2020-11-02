@@ -16,6 +16,7 @@ function Login() {
     const getAuthenticatedUser = async () => {
       try {
         await Auth.currentAuthenticatedUser({ bypassCache: true });
+        navigation.navigate('FinishAccount');
         console.log('Redirecionando para a rota');
       } catch (err) {
         console.log('Usuario não está logado', err);

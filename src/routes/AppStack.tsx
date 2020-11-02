@@ -5,6 +5,8 @@ import {StatusBar} from 'react-native';
 
 import Home from '../pages/Home';
 import Login from '../pages/Login';
+import CreateAccount from '../pages/CreateAccount';
+import FinishAccount from '../pages/CreateAccount/FinishAccount';
 const {Navigator, Screen} = createStackNavigator();
 
 function AppStack() {
@@ -14,8 +16,8 @@ function AppStack() {
       <Navigator screenOptions={{headerShown: false}}>
         <Screen name="Home" component={Home} />
         <Screen name="Login" component={Login} />
-        {/* <Screen name="Login" component={Login} /> */}
-        {/* <Screen name="Home" component={Home} /> */}
+        <Screen name="CreateAccount" component={CreateAccount} />
+        <Screen name="FinishAccount" component={FinishAccount} />
       </Navigator>
     </NavigationContainer>
   );
