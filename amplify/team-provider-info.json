@@ -1,0 +1,22 @@
+{
+  "local": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-waveapp-local-215213-authRole",
+      "UnauthRoleArn": "arn:aws:iam::546377353928:role/amplify-waveapp-local-215213-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::546377353928:role/amplify-waveapp-local-215213-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-waveapp-local-215213-deployment",
+      "UnauthRoleName": "amplify-waveapp-local-215213-unauthRole",
+      "StackName": "amplify-waveapp-local-215213",
+      "StackId": "arn:aws:cloudformation:us-east-1:546377353928:stack/amplify-waveapp-local-215213/e235ae40-e991-11ea-a0c7-0ece9c9311f7",
+      "AmplifyAppId": "d10k97wvgnx2gr"
+    },
+    "categories": {
+      "auth": {
+        "waveapp31be5b1e": {
+          "hostedUIProviderCreds": "[{\"ProviderName\":\"Google\",\"client_id\":\"404237995501-8a98a8cti04cm4ma7f7lecj47tbnt9lk.apps.googleusercontent.com\",\"client_secret\":\"FSG9p6v3InUO4dhz8gKSqQkQ\"}]"
+        }
+      }
+    }
+  }
+}

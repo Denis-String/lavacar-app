@@ -1,0 +1,10 @@
+{
+    "auth": {
+        "waveapp31be5b1e": {
+            "service": "Cognito",
+            "providerPlugin": "awscloudformation",
+            "dependsOn": [],
+            "customAuth": false
+        }
+    }
+}
